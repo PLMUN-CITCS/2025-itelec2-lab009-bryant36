@@ -11,8 +11,7 @@ def main():
         if number % 2 == 0:
             print("The number", number, "is Even.")
         else:
-            print("The number", number, "is Odd.")
-            
+            print("The number", number, "is Odd.") 
             #code here
     except ValueError:
             print("Invalid input. Please enter an integer.")
