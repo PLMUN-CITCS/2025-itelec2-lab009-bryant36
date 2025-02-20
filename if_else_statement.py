@@ -4,7 +4,6 @@
 # Variables, Literals, and Case-Sensitivity in Python (with Naming Conventions)
 
 def main():
-
     try:
         user_input = input("Enter a number: ")
         number = int(user_input)            
@@ -14,7 +13,7 @@ def main():
             print("The number", number, "is Odd.") 
             #code here
     except ValueError:
-            print("Invalid input. Please enter an integer.")
+        print("Invalid input. Please enter an integer.")
 
 if __name__ == "__main__":
     main()
